@@ -4,11 +4,10 @@ This Library aims to simplify the code needed to be written in order to make a H
 
 Step 1:
 
-add
-JSONParser.java to your Android Project.
+Add JSONParser.java to your Android Project.
 
-Step 2:
-Make HTTP POST/GET Requests as follows:
+
+JSONParser has following methods :
 
 ```
 
@@ -17,7 +16,13 @@ Make HTTP POST/GET Requests as follows:
          
 ```
 
-this method is used to make HTTP requests. A simple demo of its usage :
+```
+                public  int StatusCode()
+```
+
+Step 2: Making HTTP POST/GET Requests:
+
+makeHttpRequest method is used to make HTTP requests. A simple demo of its usage :
 
 
 
@@ -42,8 +47,8 @@ this method is used to make HTTP requests. A simple demo of its usage :
  ```  
  
  
- to get Status Code as return use  StatusCode() method
- Demo:
+ to get Status Code use  StatusCode() method. A simple demo of its usage:
+ 
  
  ```
  
