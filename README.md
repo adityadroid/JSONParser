@@ -3,6 +3,14 @@
 This Library aims to simplify the code needed to be written in order to make a HTTP GET/POST request.
 
 Step 1:
+add this to your app level build.gradle.
+```
+android{
+    useLibrary 'org.apache.http.legacy'
+    }
+```
+
+Step 2:
 
 Add JSONParser.java to your Android Project.
 
