@@ -3,7 +3,7 @@
 This Library aims to simplify the code needed to be written in order to make a HTTP GET/POST request.
 
 Step 1:
-add this to your app level build.gradle.
+include apache http library by adding this to your app level build.gradle.
 ```
 android{
     useLibrary 'org.apache.http.legacy'
